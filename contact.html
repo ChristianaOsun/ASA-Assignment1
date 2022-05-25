@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Contact-me</title>
+</head>
+<body>
+    <div id="page">
+    <!--beginning of contact form-->
+    <header>
+        <div id="headpage">
+    <!--made the logo a navigation to the home page-->
+            <a href="./index.html">
+            <img src="./images/image1.PNG" alt="logo"
+            width="60px"
+            height="60px"></a>
+            <h1>Christiana Osun</h1>
+        </div>
+        <div id="menu">
+        <nav>
+            <ul id="header">
+                <li><a href="./index.html" class="current">home</a></li>
+                <li><a href="./register.html" class="register" target="_blank">register</a></li>
+                <li><a href="./login.html" class="login">login</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div class="group-form">
+        <p>Get in touch with me using the form below</p>
+        <form action="" method="post">
+            <input type="text" id="name"
+            placeholder="name" required>
+            <input type="email" id="email"
+            placeholder="email" required>
+            <textarea id="message" placeholder="your message here"
+            rows="10" cols="20"></textarea>
+            <input type="hidden" value="priority">
+            <p id="priority">Priority
+            <select>
+                <option value=""></option>
+                <option value="emergency">Urgent</option>
+                <option value="good">Important</option>
+                <option value="normal">Not Urgent</option>
+            </select></p>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+    <!--end of contact form-->
+</div>
+</body>
+</html>

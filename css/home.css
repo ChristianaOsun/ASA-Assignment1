@@ -1,0 +1,106 @@
+#page{
+    background-color: rgb(226, 248, 248);
+}
+img, h1{
+    display: inline-block;
+    padding-left: 20px;
+}
+article{
+    float: left;
+}
+aside{
+    float: right;
+    margin: auto;
+    width: fit-content;
+}
+.aside-image{
+    align-self: center;
+}
+
+h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    padding-top: 40px;
+    opacity: 0.8;
+    border: none;
+}
+
+img:hover{
+    color: rgb(12, 97, 69);
+}
+
+nav li{
+    display: inline;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px;
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#headpage{
+    background-color: rgb(164, 226, 226)
+}
+
+#menu{
+    background-color: rgb(72, 167, 167);
+    padding: 2px;
+    text-align: justify;
+}
+
+figcaption{
+    text-align: left;
+    margin: 10px;
+    margin-left: 20px;
+    font-style: oblique;
+}
+figure{
+    border: 1px solid rgb(187, 243, 187);
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 20px;
+    font-weight: 5pt;
+    line-height: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#page,#page-side{
+    display: inline-block;
+}
+#content{
+    padding: 20px;
+    text-align: justify;
+}
+.contact-me, .current, .register, .login, .calculator{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.1em;
+}
+
+.login:hover, .contact-me:hover, .current:hover, .register:hover, .calculator:hover{
+    color: rgb(12, 97, 69)
+}
+p, li, blockquote{
+    font-size: 13pt;
+    line-height: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+blockquote{
+    text-align: center;
+    font-style: oblique;
+}
+
+article{
+    width: 55%;
+    height: fit-content;
+}
+/*.trademark{
+    text-align: center;
+
+}*/

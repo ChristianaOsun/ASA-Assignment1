@@ -1,0 +1,159 @@
+#registration-form{
+    background-color: rgb(150, 240, 240);
+    width: 350px;
+    height: 750px;
+    border: 1px solid rgb(255, 105, 105);
+    display: inline-block;
+    line-height: 1.4em;
+    border-radius: 20pt;
+}
+#page{
+    background-color: rgb(226, 248, 248);
+}
+
+.login, .contact-me, .current, .register{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.1em;
+}
+
+.login:hover, .contact-me:hover, .current:hover, .register:hover{
+    color: rgb(12, 97, 69)
+}
+p, li{
+    font-size: 13pt;    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    text-align: justify;
+    font-size: 26px;
+    line-height: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.1em;
+    padding-bottom: 0%;
+    text-transform: capitalize;
+}
+#register-here{
+    padding-top: 30px;
+    padding-left: 10px;
+}
+p.request{
+    text-align: justify;
+    font-style: oblique;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label{
+    display: block;
+    padding-left: 10px;
+    margin: 10px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+form{
+    text-align: center;
+    width: 100%;
+}
+input[type=text], input[type=password],
+input[type=email], input[type=tel] {
+    height: 20px;
+    width: 90%;
+    border: 2px solid black;
+    padding-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(229, 235, 235);
+}
+
+hr{
+    border: 1px solid;
+}
+
+select{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(229, 235, 235);
+    height: 25px;
+    width: 97%;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.registration-button{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px bolder;
+    color: black;
+
+}
+
+.registration-button:hover{
+    color: rgb(12, 97, 69);
+}
+
+button{
+    margin: 15px;
+    margin-bottom: 0%;
+    padding: 2pt;
+    border-radius: 70px;
+    background-color: rgb(22, 168, 168);
+}
+
+p{
+    text-align: center;
+    font-size: 16px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+strong:hover{
+    color: rgb(12, 97, 69);
+}
+
+strong{
+    color: black;
+}
+img, h1{
+    display: inline-block;
+    padding-left: 20px;
+}
+h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-left: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    padding-top: 40px;
+    opacity: 0.8;
+    border: none;
+}
+
+nav li{
+    display: inline;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#headpage{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(164, 226, 226)
+}
+
+#menu{
+    background-color: rgb(72, 167, 167);
+    padding: 2px;
+    text-align: justify;
+}
